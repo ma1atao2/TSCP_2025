@@ -277,10 +277,10 @@ export default {
     },
   },
   mounted() {
-    var rand_arr = this.get_rand(this.get_seed(this.user))
-      this.generate_questions()
-      this.get_questions(rand_arr)
-      this.get_question_answers(rand_arr)
+    // var rand_arr = this.get_rand(this.get_seed(this.user))
+    //   this.generate_questions()
+    //   this.get_questions(rand_arr)
+    //   this.get_question_answers(rand_arr)
   },
 };
 </script>
